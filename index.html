@@ -1,12 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>내 블로그</title>
+  <title>진현우 포트폴리오</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    section {
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      background: #334155;
+      transform: scale(1.03);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #2563eb;
+      padding: 8px 12px;
+      border-radius: 20px;
+      margin: 5px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>안녕하세요 👋</h1>
-  <p>GitHub 블로그 시작!</p>
+
+<div class="container">
+
+  <!-- 🔥 이름 -->
+  <h1>진현우</h1>
+  <p style="color: gray;">Frontend Developer / Portfolio</p>
+
+  <!-- 🔥 소개 -->
+  <section>
+    <h2>About Me</h2>
+    <p style="color: #cbd5e1;">
+      사용자 경험을 중요하게 생각하는 개발자입니다.
+    </p>
+  </section>
+
+  <!-- 🔥 스킬 -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </section>
+
+  <!-- 🔥 프로젝트 -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>쇼핑몰 웹</h3>
+      <p style="color: gray;">간단한 쇼핑 사이트 제작</p>
+    </div>
+
+    <div class="card">
+      <h3>Todo 앱</h3>
+      <p style="color: gray;">할 일 관리 프로젝트</p>
+    </div>
+  </section>
+
+  <!-- 🔥 블로그 -->
+  <section>
+    <h2>Blog</h2>
+
+    <div class="card">
+      <h3>첫 글</h3>
+      <p style="color: gray;">블로그 시작</p>
+    </div>
+
+  </section>
+
+</div>
+
 </body>
 </html>
-``
